@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>The everyday, elevated — a styling study for Metka Albreht</title>
+<style>
+  :root{
+    --bone:#faf9f6; --ink:#161616; --muted:#6f6b66; --line:#e4e1da;
+  }
+  *{box-sizing:border-box}
+  html,body{margin:0}
+  body{
+    background:var(--bone); color:var(--ink);
+    font-family:ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    -webkit-font-smoothing:antialiased; line-height:1.5;
+  }
+  .wrap{max-width:1040px; margin:0 auto; padding:48px 20px 72px}
+  header{margin-bottom:40px; border-bottom:1px solid var(--line); padding-bottom:28px}
+  .kicker{font-size:12px; letter-spacing:.22em; text-transform:uppercase; color:var(--muted); margin:0 0 14px}
+  h1{font-size:clamp(30px,6vw,52px); line-height:1.05; letter-spacing:-.02em; font-weight:600; margin:0 0 18px}
+  .lead{font-size:clamp(15px,2.4vw,18px); color:#3a3733; max-width:60ch; margin:0}
+  .lead strong{font-weight:600; color:var(--ink)}
+  section.pair{margin-top:52px}
+  .pair h2{font-size:13px; letter-spacing:.16em; text-transform:uppercase; color:var(--muted); font-weight:600; margin:0 0 16px}
+  .duo{display:grid; grid-template-columns:1fr 1fr; gap:14px}
+  figure{margin:0}
+  .tag{font-size:11px; letter-spacing:.18em; text-transform:uppercase; color:var(--muted); margin:0 0 8px}
+  .duo img{width:100%; height:auto; display:block; background:#eceae5; border:1px solid var(--line)}
+  .switch{margin:16px 0 0; font-size:15px; color:#3a3733; max-width:64ch}
+  .switch b{font-weight:600; color:var(--ink)}
+  footer{margin-top:64px; padding-top:24px; border-top:1px solid var(--line); font-size:13px; color:var(--muted)}
+  @media (max-width:520px){
+    .wrap{padding:32px 14px 56px}
+    .duo{gap:8px}
+    .tag{font-size:10px; letter-spacing:.12em}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <p class="kicker">A styling study for Metka Albreht</p>
+    <h1>The everyday, elevated</h1>
+    <p class="lead">It is the <strong>same woman, 35 years old</strong>, in both photographs. On the left she is wearing the kind of outfit she wore at 25. On the right, the same ordinary afternoon, dressed for who she is now. Nothing changes but the styling. That is the work.</p>
+  </header>
+
+  <section class="pair">
+    <h2>1 &middot; Jeans and a tee</h2>
+    <div class="duo">
+      <figure><p class="tag">At 25</p><img src="images/pair1-young.jpg" alt="At 25"></figure>
+      <figure><p class="tag">After 35</p><img src="images/pair1-after.jpg" alt="After 35"></figure>
+    </div>
+    <p class="switch"><b>The switch.</b> Lose the rips and the logo, swap the skinny for a clean straight leg, good denim and a quality plain top. The same uniform, calmer and better cut.</p>
+  </section>
+
+  <section class="pair">
+    <h2>2 &middot; Leggings into town</h2>
+    <div class="duo">
+      <figure><p class="tag">At 25</p><img src="images/pair2-young.jpg" alt="At 25"></figure>
+      <figure><p class="tag">After 35</p><img src="images/pair2-after.jpg" alt="After 35"></figure>
+    </div>
+    <p class="switch"><b>The switch.</b> Keep the comfort, drop the gym signals. A logo waistband and a cropped hoodie read borrowed from the gym. Soft tailoring in good fabric is just as easy and looks deliberate.</p>
+  </section>
+
+  <section class="pair">
+    <h2>3 &middot; The casual dress</h2>
+    <div class="duo">
+      <figure><p class="tag">At 25</p><img src="images/pair3-young.jpg" alt="At 25"></figure>
+      <figure><p class="tag">After 35</p><img src="images/pair3-after.jpg" alt="After 35"></figure>
+    </div>
+    <p class="switch"><b>The switch.</b> Length and fabric. A clingy mini becomes a midi that skims, with a defined waist. The leg becomes a hint, not the headline.</p>
+  </section>
+
+  <section class="pair">
+    <h2>4 &middot; Cinema, then a drink</h2>
+    <div class="duo">
+      <figure><p class="tag">At 25</p><img src="images/pair4-young.jpg" alt="At 25"></figure>
+      <figure><p class="tag">After 35</p><img src="images/pair4-after.jpg" alt="After 35"></figure>
+    </div>
+    <p class="switch"><b>The switch.</b> Fabric and cut instead of cut-outs and sparkle. A silk shirt does what the corset used to, and it carries you from the afternoon to the cinema to dinner with no costume change.</p>
+  </section>
+
+  <section class="pair">
+    <h2>5 &middot; Cold weather, coat-led</h2>
+    <div class="duo">
+      <figure><p class="tag">At 25</p><img src="images/pair5-young.jpg" alt="At 25"></figure>
+      <figure><p class="tag">After 35</p><img src="images/pair5-after.jpg" alt="After 35"></figure>
+    </div>
+    <p class="switch"><b>The switch.</b> Make the coat the hero. A long wool coat over simple layers reads grown-up at once. A cropped puffer and lug boots read student. Same warmth, a different register.</p>
+  </section>
+
+  <footer>
+    Concept preview for discussion. The photographs are AI-generated drafts to show the idea, not final images.
+  </footer>
+</div>
+</body>
+</html>
